@@ -1,0 +1,130 @@
+.encabezado{
+    margin: 1.5em 0 1.5em 0; 
+    padding: 4em 0;
+    background-color: #0a9b0a;
+}
+.encabezado h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'MedievalSharp', cursive;
+    color: #f6f6f6;
+}
+h2,h3,h4{
+    font-family: 'Fredoka One', cursive;
+}
+.encabezado h2{
+    text-align: center;
+    font-size: 2em;
+    color: #acf880;
+}
+.encabezado h4{
+    text-align: center;
+    font-size: 1.5em;
+    color: #acf880;
+}
+.blog{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap; 
+    background-color: #46e784;
+    justify-content: space-around;
+}
+.tarjetaNoticia{
+    width: 24em; 
+    background-color: #fff;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: #4d0101 thin solid;
+}
+.tarjetaMarcoNoticia{
+    background-color: #46e784;;
+    padding: .8em;
+    border-radius: 0.5em;
+}
+.tarjetaMarcoNoticia img{ 
+    width:100%;
+    height:20em;
+    border-radius: 0.5em 0.5em 0 0;
+}
+.imagen{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tarjetaTextoNoticia{
+    background-color: #aef3c8;
+    padding: .8em;
+    border-radius: 0 0 .5em .5em;
+    margin: 0.2em 0 0 0;
+}
+.tarjetaTextoNoticia h2{
+    color: #0a9b0a;
+    font-size: 2em;
+    text-align: center;
+}
+.tarjetaTextoNoticia h3{
+    color: #657c65;
+    text-align: left;
+    font-size: 1.25em;
+}
+
+.tarjetaTextoNoticia a{
+    color: #657c65;
+    text-align: right;
+    font-size: 1em;
+}
+.noticia{
+    background-color: #fff;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: #4d0101 thin solid;
+}
+.marcoNoticia{
+    background-color: #46e784;;
+    padding: .8em;
+    border-radius: 0.5em;
+}
+.marcoNoticia img{ 
+    width:100%;
+    height:20em;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+.imagenN{
+    width:30em;
+    align-items: center;
+}
+.textoNoticia{
+    padding: .8em;
+    border-radius: 0 0 .5em .5em;
+    margin: 0.2em 0 0 0;
+}
+.textoNoticia h2{
+    color: #066106;
+    font-size: 2em;
+    text-align: center;
+}
+.textoNoticia h3{
+    color: #486d48;
+    text-align: left;
+    font-size: 1.5em;
+}
+.textoNoticia h4{
+    color: #486d48;
+    text-align: left;
+    font-size: 1em;
+}
+.textoNoticia p{
+    color: #486d48;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Pacifico', cursive;   
+}
+.textoNoticia a{
+    color: #657c65;
+    text-align: right;
+    font-size: 1em;
+}
